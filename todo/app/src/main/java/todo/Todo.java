@@ -13,5 +13,7 @@ public class Todo {
         return tasks;
     }
 
-  
+    public ArrayList<String> getTasks() {
+        return tasks;
+    }
 }
