@@ -17,7 +17,7 @@ public class TodoTest {
     public void shouldAddTask() {
         Todo todo = new Todo();
         ArrayList<String> expectedList = new ArrayList<String>();
-        expectedList.add("Buy coffee");
+        expectedList.add("Buy Coffee");
 
         assertEquals("Should reflect new task added", expectedList, todo.addTask("Buy Coffee"));
     }
